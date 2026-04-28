@@ -15,8 +15,8 @@ const app = express();
 // Middleware
 const corsOptions = process.env.NODE_ENV === 'production'
   ? {
-      origin: ['https://tudominio.com', 'https://chaskier.app'],
-      credentials: true
+      origin: ['https://chazkier.com', 'https://www.chazkier.com'],
+      credentials: false
     }
   : {
       origin: (origin, callback) => {
